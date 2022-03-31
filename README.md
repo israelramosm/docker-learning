@@ -1,9 +1,9 @@
 # Docker-learning
 
-To build an image use this command 
+To build an image use this command, the dot (.) i use to specify the current folder
 
 ```
-docker build -t project
+docker build -t project .
 ```
 
 To run the image use this command.

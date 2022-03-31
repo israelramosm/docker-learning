@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js",
-    "server": "node src/index.js"
+    "server": "node src/index.js",
+    "docker:build": "docker build -t project-be-01 .",
+    "docker:run": "docker run -dp 3001:3001 project-be-01"
   },
   "author": "",
   "license": "ISC",
