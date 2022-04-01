@@ -7,7 +7,7 @@
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.svelte.json",
-    "server:prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "server:prebuild": "tslint -c tslint.server.json -p tsconfig.server.json --fix",
     "server:build": "tsc -p ./tsconfig.server.json",
     "server:prestart": "npm run server:build",
     "server:start": "node dist/server.js",
