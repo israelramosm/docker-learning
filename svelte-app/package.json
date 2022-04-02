@@ -12,7 +12,9 @@
     "server:prestart": "npm run server:build",
     "server:start": "node dist/server.js",
     "server:watch": "nodemon dist/server.js",
-    "code:watch": "tsc -w -p ./tsconfig.server.json"
+    "code:watch": "tsc -w -p ./tsconfig.server.json",
+    "docker:build": "docker build -t svelte-app .",
+    "docker:run": "docker run -dp 5001:5001 svelte-app"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",

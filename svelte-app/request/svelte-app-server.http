@@ -1,0 +1,6 @@
+@port = 5001
+
+@localhost =  http://localhost
+
+# GET Hello World
+GET {{localhost}}:{{port}}/api

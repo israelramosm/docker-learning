@@ -10,7 +10,7 @@ const port = process.env.PORT || 5001;
 
 // define a route handler for the default home page
 app.get("/api", (req, res) => {
-  res.send("Hello world!");
+  res.send("Svelte App");
 });
 
 app.use(express.static(path.join(__dirname, "public"), { fallthrough: false }));
