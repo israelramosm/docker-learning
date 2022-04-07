@@ -12,3 +12,7 @@ The port is going to be the mapping between the host and the image
 ```
 docker run -dp 3000:3000 getting-started
 ```
+
+
+## TODO
+* JWT between service and app
